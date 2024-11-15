@@ -18,8 +18,8 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-// Step 3: Insert data into the 'form_info' table
-$sql = "INSERT INTO form_info (name, email, message, submission_date) 
+// Step 3: Insert data into the 'form_information' table
+$sql = "INSERT INTO form_information (name, email, message, submission_date) 
         VALUES ('$name', '$email', '$message', NOW())";
 
 // Step 4: Execute the query and check if it was successful
